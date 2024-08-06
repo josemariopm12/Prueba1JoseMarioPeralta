@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+:root{
+	--color-general:#888585;
+	--fondo-header:#4e4e4e;
+	--fondo-footer:#383737;
+	--color-titulos: #3c3838;
+	--color-azul: #41c1fe;
+	--fondo-gris: #f3f3f3;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	color: var(--color-general);
+	background: var(--fondo-gris);
+}
+
+header{
+	background-color: var(--fondo-header);
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 30px 0;
+}
+
+#hero{
+	background-image: url("../img/header_bg.jpg");
+	padding: 150px 0;
+}
+
+#hero .title{
+	color: #FFFFFF !important;
+}
+
+#welcome .bg-color{
+	padding: 70px 25px;
+}
+
+#coaches, #gallery {
+	padding: 100px 0;
+}
+
+#history .ours{
+	padding: 100px 20px;
+}
+
+.title{
+	font-family: "Oswald", sans-serif;
+	color: var(--color-titulos);
+	text-transform: uppercase;
+}
+
+.subtitle{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+}
+
+.btn{
+	background-color: var(--color-azul);
+	border-width: 0;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 50px;
+}
+
+.bg-color {
+	background: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
